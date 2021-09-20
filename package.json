@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/Fmressel/fmressel.com/issues"
   },
-  "homepage": "https://github.com/Fmressel/fmressel.com#readme",
-  "devDependencies": {
-    "html-minifier": "^4.0.0"
-  }
+  "homepage": "https://github.com/Fmressel/fmressel.com#readme"
 }
