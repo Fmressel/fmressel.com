@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Fmressel</title>
+    <meta name="description" content="COO and Cofounder of XOTV">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <style>
+      body {
+        height: 100vh;
+        margin: 0;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      h1 {
+        margin: 0;
+        font-family: Helvetica, sans-serif;
+        background: linear-gradient(45deg, #f0388e, #ea8d56);
+        padding: 1rem;
+        border-radius: 5px;
+        color: black;
+        word-break: break-all;
+      }
+
+      p {
+        font-family: Helvetica;
+        font-size: 1.2rem;
+        text-align: center;
+      }
+
+      span.xotv {
+        font-family: "Avenir Next", Avenir, sans-serif;
+        font-weight: 900;
+      }
+
+      span.xotv a {
+        color: black;
+      }
+
+      a::after {
+        visibility: hidden;
+        content: url(img/focus-arrow.svg);
+        position: absolute;
+        margin-left: 0.2rem;
+        transition: all 0.2s ease-in-out;
+        opacity: 0;
+      }
+
+      a:focus::after {
+        visibility: visible;
+        margin-left: 0;
+        opacity: 1;
+      }
+
+      span.xotv .dot {
+        color: #ffa45b;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Fmressel</h1>
+      <p>
+        COO of
+        <span class="xotv">
+          <a href="https://xotv.me" target="_blank" rel="noopener">
+            xotv<span class="dot">.</span>me
+          </a>
+        </span>
+      </p>
+    </main>
+  </body>
+</html>
